@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.new-todo{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.to-do-container{
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding: 20px; 
+}
+
+.to-do-container ul li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
+.to-do-container ul li:hover{
+  background-color: white;
+}
+
+.to-do-container ul li i{
+  color: grey;
+}
+
+.to-do-container ul li i:hover{
+  color: black;
+}
+
+.to-do-container ul li.done span{
+  text-decoration:line-through ;
+}
